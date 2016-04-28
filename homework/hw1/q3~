@@ -1,0 +1,14 @@
+#include stdio;
+
+
+int main(){
+
+	int t1 = 0x1234abcd;
+	int t2;
+	
+	t2 = ((t1<<8)&(0x11001100)) & ((t1>>8)&(0x00110011));
+	
+	printf("x = %x", x);
+
+	return 0;
+}

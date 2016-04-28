@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+void addition(int x, int y, int z);
+
+int main(){
+  
+  double x = 10;
+  char y = 20;
+  float z = 100;
+
+  addition(x, y, z);
+
+  return 0;
+}
+
+void addition(int x, int y, int z){
+  printf("the sum is %d\n", x+y+z);
+
+}
